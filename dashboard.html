@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmer Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dashboard-page">
+  <nav>
+    <h2>🌱 Farmer Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </nav>
+
+  <div class="form-container">
+    <h3>🪴 Submit Your Agricultural Idea</h3>
+    <input type="text" id="farmerName" placeholder="Farmer Name" required />
+    <input type="text" id="cropType" placeholder="Crop Type" required />
+    <textarea id="idea" placeholder="Describe your idea or data..." required></textarea>
+    <button onclick="submitIdea()">Submit Idea</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
