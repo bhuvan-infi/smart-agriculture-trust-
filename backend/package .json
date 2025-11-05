@@ -1,0 +1,16 @@
+{
+  "name": "smart-agriculture-trust-backend",
+  "version": "1.0.0",
+  "description": "Backend for decentralized smart agriculture trust project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
